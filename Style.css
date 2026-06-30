@@ -101,6 +101,8 @@ input, textarea {
 textarea {
     height: 100px;
 }
+@import "tailwindcss";
+@plugin "daisyui";
 @plugin "daisyui/theme" {
   name: "pastel";
   default: false;
